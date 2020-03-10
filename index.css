@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/background.png);
+}
+div{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pontos{
+    position: fixed;
+    top: 0;
+    left: 10px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.jogadas{
+    position: fixed;
+    top: 26px;
+    left: 10px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.tabuleiro_container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.tabuleiro_container ul{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.tabuleiro_container ul li{
+    width: 15%;
+    display: -webkit-inline-box;
+}
+.tabuleiro_container ul li div.Carta{
+    width: 100%;
+    padding: 10px;
+    height: 130px;
+    
+}
+.tabuleiro_container ul li div.Carta .front{
+    border: 2px solid black;
+    width: 100%;
+    height: 130px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px;
+}
+.tabuleiro_container ul li div.Carta .back{
+    border: 2px solid black;
+    width: 100%;
+    height: 130px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px;
+    text-align: center;
+    font-size: 76px;
+    font-family: fantasy;
+    background: white;
+}
+img{
+    width: 100%;
+    cursor: pointer;
+}
