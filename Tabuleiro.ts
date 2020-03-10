@@ -61,7 +61,7 @@ class Tabuleiro {
                         <div id="`+id+`" class="flip-container Carta">
                             <div class="flipper">
                                 <div class="front">
-                                    <img src="fundo.png" alt="">
+                                    <img src="fundo.jpg" alt="">
                                 </div>
                                 <div class="back">
                                     <img src="img`+val+`.png">
