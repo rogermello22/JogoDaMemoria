@@ -1,5 +1,5 @@
 body{
-    background-image: url(../img/background.png);
+    background-image: url(fundo2.jpg);
 }
 div{
     width: 100%;
@@ -61,3 +61,38 @@ img{
     width: 100%;
     cursor: pointer;
 }
+
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000000;
+	padding: 8px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#00d9ff),
+		to(#00d9ff));
+	background: linear-gradient(
+		top,
+		#00d9ff 0%,
+		#00d9ff);
+	border-radius: 10px;
+	border: 1px solid #000000;
+	box-shadow:
+		3px 4px 6px rgba(0,0,0,1),
+		inset 1px 1px 4px rgba(13,13,12,0.8);
+	text-shadow:
+		0px -1px 3px rgba(255,255,255,1),
+		0px 1px 0px rgba(255,255,255,0.3);
+
+	
+}
+
+div.container {
+height: 40em;
+ display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+
+
